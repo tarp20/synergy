@@ -255,5 +255,5 @@ bower_components
 psd
 thumb
 sketch
-
+.env.dev
 # End of https://www.toptal.com/developers/gitignore/api/python,django,react,dotenv
