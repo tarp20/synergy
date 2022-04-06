@@ -10,12 +10,8 @@ class UserSerializer(serializers.ModelSerializer):
         source="group", queryset=Group.objects.all(), many=True, slug_field="name"
     )
 
-    groups_detail = GroupSerializer(
-        source="group",
-        read_only=True,
-        many=True,
-    )
-
     class Meta:
         model = User
-        fields = ("id", "username", "created", "groups_detail", "group_names")
+        fields = ("id", "username", "created", "group_names")
+        
+   
