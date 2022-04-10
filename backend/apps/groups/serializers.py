@@ -4,7 +4,7 @@ from .models import Group
 
 class GroupSerializer(serializers.ModelSerializer):
     
-    empty = serializers.BooleanField()
+    empty = serializers.BooleanField(read_only=True)
     class Meta:
         model = Group
         fields = ("id", "name", "description", "empty")

@@ -71,7 +71,6 @@ const AddUser = (props) => {
 
   return (
     <Container>
-      <h1>Yo</h1>
       {submitted ? (
         <div>
           <h4>User {editing ? "edited" : "added"} Successfully</h4>
