@@ -71,12 +71,14 @@ export const GroupList = (props) => {
                       Edit
                     </Button>
                   </Link>
-                  <Button
-                    variant="outline-danger"
-                    onClick={() => deleteGroup(group.id)}
-                  >
-                    Delete
-                  </Button>
+                  {group.empty && (
+                    <Button
+                      variant="outline-danger"
+                      onClick={() => deleteGroup(group.id)}
+                    >
+                      Delete
+                    </Button>
+                  )}
                 </td>
               </tr>
             );

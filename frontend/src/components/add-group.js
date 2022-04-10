@@ -59,7 +59,7 @@ const AddGroup = (props) => {
       {submitted ? (
         <div>
           <h3>Group {editing ? "edited" : "added"} Successfully</h3>
-          <Link to={"/groups/"}>Back to Users</Link>
+          <Link to={"/groups/"}>Back to Groups</Link>
         </div>
       ) : (
         <Form>
