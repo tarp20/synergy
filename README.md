@@ -37,9 +37,9 @@ Frontend: React.js<br/>
 ### **Steps to start on**
 
 Download the project from github<br/>
-`git clone https://github.com/tarp20/synergy.git<br/>
-`cd synergy`<br/>
-Add `.env.dev` config file in backend folder  with the following variables:<br/>
+`git clone https://github.com/tarp20/synergy.git` <br/>
+`cd synergy` <br/>
+Add `.env.dev` config file in backend folder  with the following variables: <br/>
 
 ```env
 DEBUG=1
@@ -55,7 +55,7 @@ POSTGRES_HOST=db
 
 
 `run docker build .`<br/>
-`docker-compose up`<br/>
+`docker-compose up` <br/>
 
 
  
