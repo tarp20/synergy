@@ -12,6 +12,10 @@ class UserSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = User
-        fields = ("id", "username", "created", "group_names")
-        
-   
+        fields = (
+            "id",
+            "username",
+            "created",
+            "group_names",
+            
+        )

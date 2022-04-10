@@ -2,7 +2,7 @@ from django.db import models
 
 
 class Group(models.Model):
-    name = models.CharField("Name", max_length=99)
+    name = models.CharField("Name", max_length=99, unique=True)
     description = models.TextField()
 
     def __str__(self):
