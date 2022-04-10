@@ -1,14 +1,14 @@
 # Synergy
 
-Simple website with two pages:
-1) List of Users
-`localhost:3000/users`
-2) List of Groups for Users
-`localhost:3000/groups`
+Simple website with two pages:\n
+1) List of Users \n
+`localhost:3000/users` \n
+2) List of Groups for Users \n
+`localhost:3000/groups` \n
 
 
 ## **Functional Requirements**
-Description of the first page:
+Description of the first page:\n
 
 List of Users consist of: username, created, group, actions. username – User nickname
 created – Date of creating the user
@@ -34,10 +34,10 @@ Frontend: React.js
 
 ### **Steps to start on**
 
-Download the project from github    
-`git clone https://github.com/tarp20/synergy.git`
+Download the project from github    \n
+`git clone https://github.com/tarp20/synergy.git` \n
 `cd synergy`
-Add `.env.dev` config file with the following variables:
+Add `.env.dev` config file in backend folder  with the following variables:\n
 
 ```env
 DEBUG=1
@@ -52,8 +52,8 @@ POSTGRES_HOST=db
 ```
 
 
-`run docker build .`
-`docker-compose up`
+`run docker build .` \n
+`docker-compose up` \n
 
 
  
